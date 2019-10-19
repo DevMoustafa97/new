@@ -1,20 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <link rel="stylesheet" href="style.css">
-        <title> Css basics</title>
+        <title>Marioclub</title>
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <h1>CSS Basics</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate perferendis esse expedita qui doloremque impedit cupiditate culpa reprehenderit voluptates temporibus quis exercitationem, magnam sint, consequuntur, quibusdam error perspiciatis sequi corporis? Non possimus ullam facilis alias autem molestiae consectetur laboriosam ab quae fuga magnam, enim molestias iusto reprehenderit dolore tenetur ex dignissimos beatae quam! Possimus dignissimos repellat quae optio enim et, illo nemo beatae explicabo culpa? Iure libero possimus harum eligendi?</p>
-        <div>
-            <h2>Ninjas available for hire</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error voluptates sed ex. Repellat voluptas unde commodi quia facere sit ipsa, possimus error nobis reiciendis natus ex, fugit maxime soluta eos totam nihil ullam odit! Reiciendis libero labore recusandae quis laboriosam sapiente quam veniam placeat, aliquid voluptatem aut assumenda quia voluptate?</p>
-            <ul>
-                <li>Ninja Youshi</li>
-                <li>Ninja Mario</li>
-                <li>Ninja shaun</li>
-            </ul>
-        </div>
-    </body>
+        <body>
+            <header>
+                <h1>Marioclub</h1>
+            </header>
+            <section class="banner">
+                <img src="img/banner.png" alt="Marioclub welcome banner">
+                <div class="welcome">
+                    <h2>Welcome to <br> <span>Marioclub</span></h2>
+                </div>
+            </section>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="/join.html" class="join">Join the club</a></li>
+                    <li><a href="/news.html">Latest news</a></li>
+                    <li><a href="/games.html">New Games</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <main>
+                <article>
+                    <h2>It's me, Mario</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt placeat autem temporibus qui praesentium dolorem quo dignissimos, in id minima mollitia esse quis expedita, ratione magnam reiciendis. Repellendus dignissimos vitae necessitatibus quod reiciendis, aut rem debitis assumenda atque possimus facilis corrupti recusandae magnam suscipit porro autem eveniet asperiores! Officiis, reprehenderit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eum ab laudantium enim, saepe blanditiis dolores ipsum esse officia similique aspernatur tempore animi quam nesciunt explicabo commodi perspiciatis! Facere esse animi nobis illo vero mollitia rem ut, nam rerum quas accusamus magnam asperiores ipsa beatae. Sint cumque sit est possimus.</p>
+                </article>
+                <ul class="images">
+                    <li><img src="img/thumb-1.png" alt="Mario"></li>
+                    <li><img src="img/thumb-2.png" alt="Mario"></li>
+                </ul>
+            </main>
+            <section class="join">
+                <h2>Join Today!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo est nemo perspiciatis eum, dolorem eaque. Totam est odit voluptatibus dolores!</p>
+                <form>
+                    <input type="email" name="email" placeholder="Type email and hit ENTER" required>
+                    <img src="tick-512.png" alt="valid" class="valid">
+                    <img src="cross-512.png" alt="valid" class="not-valid">
+                </form>
+            </section>
+            <footer>
+                <p class="copyright">Copyright 2019 &copy; Marioclub </p>
+            </footer>
+        </body>
 </html>
